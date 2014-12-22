@@ -188,4 +188,4 @@ end
 
 ActiveRecord::Base.send :include, Spawn if defined? ActiveRecord
 ActionController::Base.send :include, Spawn
-ActiveRecord::Observer.send :include, Spawn if defined? ActiveRecord
+#ActiveRecord::Observer.send :include, Spawn if defined? ActiveRecord
